@@ -1,0 +1,21 @@
+{
+  "name": "forma-ecommerce",
+  "version": "1.0.0",
+  "description": "FORMA — Minimal Design Objects E-commerce Catalog",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . --listen 3000 --cors",
+    "build": "echo 'Static site — no build step required. Deploy the project folder directly.'",
+    "lint": "echo 'Run your preferred linter here'",
+    "deploy:netlify": "npx netlify-cli deploy --dir=. --prod",
+    "deploy:vercel": "npx vercel --prod"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["ecommerce", "spa", "vanilla-js", "product-catalog"],
+  "license": "MIT"
+}
